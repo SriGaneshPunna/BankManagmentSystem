@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <servlet>
+  <servlet-name> creat</servlet-name>
+  <servlet-class>pack.ServletEx1</servlet-class>
+  
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>creat</servlet-name>
+  <url-pattern>/create</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+  <servlet-name> Deposit</servlet-name>
+  <servlet-class>pack.ServletEx2</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>Deposit</servlet-name>
+  <url-pattern>/Deposit</url-pattern>
+  </servlet-mapping>
+  
+  
+   <servlet>
+  <servlet-name> Withdraw</servlet-name>
+  <servlet-class>pack.ServletEx3</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name> Withdraw</servlet-name>
+  <url-pattern>/Withdraw</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+   <servlet>
+  <servlet-name> Display</servlet-name>
+  <servlet-class>pack.ServletEx4</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name> Display</servlet-name>
+  <url-pattern>/Display</url-pattern>
+  </servlet-mapping>
+  
+</web-app>
+
+
